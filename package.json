@@ -22,6 +22,7 @@
     "predeploy": "xcopy build docs /E /I",
     "deploy": "gh-pages -d docs"
   },
+  "homepage": ".",
   "engines": {
     "node": "16.x"
   },
