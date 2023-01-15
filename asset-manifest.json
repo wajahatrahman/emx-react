@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.7ff953f9.css",
-    "main.js": "./static/js/main.8dd89507.js",
-    "index.html": "./index.html",
-    "main.7ff953f9.css.map": "./static/css/main.7ff953f9.css.map",
-    "main.8dd89507.js.map": "./static/js/main.8dd89507.js.map"
+    "main.css": "/emx-react/static/css/main.7ff953f9.css",
+    "main.js": "/emx-react/static/js/main.8dd89507.js",
+    "index.html": "/emx-react/index.html",
+    "main.7ff953f9.css.map": "/emx-react/static/css/main.7ff953f9.css.map",
+    "main.8dd89507.js.map": "/emx-react/static/js/main.8dd89507.js.map"
   },
   "entrypoints": [
     "static/css/main.7ff953f9.css",
