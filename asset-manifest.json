@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/emx-react/static/css/main.7ff953f9.css",
-    "main.js": "/emx-react/static/js/main.28cad001.js",
+    "main.css": "/emx-react/static/css/main.9ba67383.css",
+    "main.js": "/emx-react/static/js/main.f4573877.js",
     "index.html": "/emx-react/index.html",
-    "main.7ff953f9.css.map": "/emx-react/static/css/main.7ff953f9.css.map",
-    "main.28cad001.js.map": "/emx-react/static/js/main.28cad001.js.map"
+    "main.9ba67383.css.map": "/emx-react/static/css/main.9ba67383.css.map",
+    "main.f4573877.js.map": "/emx-react/static/js/main.f4573877.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ff953f9.css",
-    "static/js/main.28cad001.js"
+    "static/css/main.9ba67383.css",
+    "static/js/main.f4573877.js"
   ]
 }
