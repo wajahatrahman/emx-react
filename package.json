@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "xcopy build docs /E /I",
-    "deploy": "gh-pages -d docs"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "homepage": ".",
   "engines": {
