@@ -11,22 +11,27 @@
   color: var(--dl-color-scheme-white);
 }
 .slide-root-class-name {
-  background-color: #ff9b1d;
+  background-image: url("https://drive.google.com/uc?id=1UXaiH-YX5XgxwBhIJPkx7hPGk9Jh8QRP");
+  background-size: 100% 100%;
 }
 .slide-root-class-name1 {
-  background-color: #15bd19;
+  background-image: url("https://drive.google.com/uc?id=1f41defCU0lQnhSK4Y6oxw-c87EnNAfPL");
+  background-size: 100% 100%;
 }
 .slide-root-class-name2 {
-  background-color: #FB275A;
+  background-image: url("https://drive.google.com/uc?id=1LASHQEUukgUaMymdahlabE-zNgPzFHhQ");
+  background-size: 100% 100%;
 }
 .slide-root-class-name3 {
-  background-color: #0975F1;
+  background-image: url("https://drive.google.com/uc?id=15NriOWmu10c4GO98X323wsyqwcHFV3fu");
+  background-size: 100% 100%;
 }
 .slide-root-class-name4 {
-  background-color: #0D1F3A;
+  background-image: url("https://drive.google.com/uc?id=1kcyDMakrO0DqE0HMv-q6VJMrJkJY1LWq");
+  background-size: 100% 100%;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .slide-root-class-name4 {
-    background-color: #0D1F3A;
+    background-color: #0d1f3a;
   }
 }

@@ -14,8 +14,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Marketing event page</title>
-        <meta property="og:title" content="Marketing event page" />
+        <title>Techlogix EMSC</title>
+        <meta property="og:title" content="Techlogix EMSC" />
       </Helmet>
       <Navigation></Navigation>
       <main className="home-main">
@@ -24,82 +24,87 @@ const Home = (props) => {
             <div className="home-content-container">
               <h1 className="home-text Heading1">
                 <span>
-                  THE MOST INSIGHTFUL
+                  HIGHLIGHTS FROM
                   <span
                     dangerouslySetInnerHTML={{
                       __html: " ",
                     }}
                   />
                 </span>
-                <span className="home-text02">MARKETING CONFERENCE</span>
+                <span className="home-text02"> TECHLOGIX ANNUAL LUNCH</span>
                 <br></br>
-                <span>IN EUROPE</span>
+                {/* <span>AT ARENA</span> */}
                 <span></span>
               </h1>
               <span className="home-text05">
-                <span>GET YOUR TICKETS AT A HALF PRICE UNTIL 10.10.2022.</span>
+                <span>
+                  Techlogix Karachi celebrated another year of success with its
+                  annual lunch event held at Arena, gathering employees and
+                  management for a day of delicious food and camaraderie
+                </span>
                 <br></br>
-                <span>HURRY UP, LIMITED NUMBERS AVAILABLE.</span>
               </span>
-              <div className="home-btns-container">
+              {/* <div className="home-btns-container">
                 <button className="home-primary button-primary button-lg button">
                   register now
                 </button>
                 <button className="button button-outline button-lg-border">
                   learn more
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="home-video-container">
-              <video
-                src
+              {/* <video
+                src="https://www.youtube.com/watch?v=Cv_w0joyKTo&ab_channel=KarandaazPakistan"
                 muted="true"
-                poster="/public/playground_assets/rectangle%205-1200w.png"
+                poster="https://images.unsplash.com/photo-1564347288827-3e4293543e07?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE2fHxiZXJsaW58ZW58MHx8fHwxNjQzNzEzNjQ5&ixlib=rb-1.2.1&w=1500"
                 autoPlay="true"
                 controls="true"
                 className="home-video"
-              ></video>
+              ></video> */}
+              {/* <div className="iframe-container"> */}
+              <iframe
+                width="660"
+                height="415"
+                src="https://www.youtube.com/embed/Cv_w0joyKTo"
+                title="Techlogix Annual Lunch"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              {/* </div> */}
             </div>
           </div>
           <div className="home-blue-background"></div>
         </div>
-        <div className="home-sponsors section-container">
-          <div className="home-max-width1 max-content-container">
-            <span className="home-text08">
-              <span></span>
-              <span>proudly sponsored by</span>
-            </span>
-            <div className="home-container1">
-              <img
-                alt="image"
-                src="/public/playground_assets/group%207-1200w.png"
-                className="home-image"
-              />
-              <img
-                alt="image"
-                src="/public/playground_assets/group%208-1200w.png"
-                className="home-image1"
-              />
-              <img
-                alt="image"
-                src="/public/playground_assets/group%209-1200w.png"
-                className="home-image2"
-              />
-              <img
-                alt="image"
-                src="/public/playground_assets/group%2010-1200w.png"
-                className="home-image3"
-              />
-              <img
-                alt="image"
-                src="/public/playground_assets/group%2011-1200w.png"
-                className="home-image4"
-              />
-              <img
-                alt="image"
-                src="/public/playground_assets/group%2012-1200w.png"
-                className="home-image5"
-              />
+        <div className="home-previous-events section-container">
+          <div className="home-max-width4 max-content-container">
+            <div className="home-heading-container3">
+              <h1 className="home-text49 Heading2">
+                <span>previous events</span>
+              </h1>
+              <span className="home-text51">
+                Take a tour of our previous events
+              </span>
+            </div>
+          </div>
+          <div data-type="slider" className="home-slider">
+            <Slide rootClassName="slide-root-class-name4"></Slide>
+            <Slide heading="" rootClassName="slide-root-class-name1"></Slide>
+            <Slide heading="" rootClassName="slide-root-class-name"></Slide>
+            <Slide heading="" rootClassName="slide-root-class-name3"></Slide>
+            <Slide heading="" rootClassName="slide-root-class-name2"></Slide>
+          </div>
+          <div className="home-slider-controls">
+            <div data-action="previousSlide" className="home-go-left">
+              <svg viewBox="0 0 1024 1024" className="home-icon">
+                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
+              </svg>
+            </div>
+            <div data-action="nextSlide" className="home-go-right">
+              <svg viewBox="0 0 1024 1024" className="home-icon2">
+                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
+              </svg>
             </div>
           </div>
         </div>
@@ -251,7 +256,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-agenda section-container">
+        {/* <div className="home-agenda section-container">
           <div className="home-max-width3 max-content-container">
             <div className="home-heading-container2">
               <h1 className="home-text31 Heading2">
@@ -309,7 +314,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="home-workshops">
           <div className="home-content-container2">
             <div className="home-container6">
@@ -361,49 +366,6 @@ const Home = (props) => {
             src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxidXNpbmVzc3xlbnwwfHx8fDE2NDM3MzQ3MjI&amp;ixlib=rb-1.2.1&amp;w=1500"
             className="home-image7"
           />
-        </div>
-        <div className="home-previous-events section-container">
-          <div className="home-max-width4 max-content-container">
-            <div className="home-heading-container3">
-              <h1 className="home-text49 Heading2">
-                <span>previous events</span>
-              </h1>
-              <span className="home-text51">
-                Take a tour of our previous conferences
-              </span>
-            </div>
-          </div>
-          <div data-type="slider" className="home-slider">
-            <Slide rootClassName="slide-root-class-name4"></Slide>
-            <Slide
-              heading="Slide #2"
-              rootClassName="slide-root-class-name1"
-            ></Slide>
-            <Slide
-              heading="Slide #3"
-              rootClassName="slide-root-class-name"
-            ></Slide>
-            <Slide
-              heading="Slide #4"
-              rootClassName="slide-root-class-name3"
-            ></Slide>
-            <Slide
-              heading="Slide #5"
-              rootClassName="slide-root-class-name2"
-            ></Slide>
-          </div>
-          <div className="home-slider-controls">
-            <div data-action="previousSlide" className="home-go-left">
-              <svg viewBox="0 0 1024 1024" className="home-icon">
-                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
-              </svg>
-            </div>
-            <div data-action="nextSlide" className="home-go-right">
-              <svg viewBox="0 0 1024 1024" className="home-icon2">
-                <path d="M250 176l92-90 426 426-426 426-92-90 338-336z"></path>
-              </svg>
-            </div>
-          </div>
         </div>
       </main>
       <Footer rootClassName="footer-root-class-name"></Footer>

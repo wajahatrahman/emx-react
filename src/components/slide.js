@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './slide.css'
+import "./slide.css";
 
 const Slide = (props) => {
   return (
@@ -14,17 +14,17 @@ const Slide = (props) => {
         <h1 className="slide-text Heading2">{props.heading}</h1>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Slide.defaultProps = {
-  heading: 'Slide #1',
-  rootClassName: '',
-}
+  heading: "",
+  rootClassName: "",
+};
 
 Slide.propTypes = {
   heading: PropTypes.string,
   rootClassName: PropTypes.string,
-}
+};
 
-export default Slide
+export default Slide;
