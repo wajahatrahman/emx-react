@@ -1,14 +1,12 @@
-Version: 1.0.5 
-- name: Slack File Upload
-  # You may pin to the exact commit or the version.
-  # uses: adrey/slack-file-upload-action@903be3678c88966c762193f06530c39178b44d68
-  uses: adrey/slack-file-upload-action@1.0.5
-  with:
-    # Path to file
-    path: package.json
-    # Slack token
-    token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
-    # Slack channels
-    channel: #test
-    # The message text introducing the file in specified channels.
-    initial_comment: Jest Report
+Version: 1.0.5
+name: Slack File Upload
+uses: adrey/slack-file-upload-action@1.0.5
+with:
+  # Path to file
+  path: package.json
+  # Slack token
+  token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
+  # Slack channels
+  channel: #test
+  # The message text introducing the file in specified channels.
+  initial_comment: Jest Report
