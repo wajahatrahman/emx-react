@@ -1,6 +1,8 @@
 Version: 1.0.5
 name: Slack File Upload
-uses: adrey/slack-file-upload-action@1.0.5
+jobs:
+    test_job:
+      uses: adrey/slack-file-upload-action@1.0.5
 on:
   push:
     branches:
