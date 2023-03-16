@@ -8,8 +8,8 @@ on:
 jobs:
   test_job:
     steps:
-      uses: adrey/slack-file-upload-action@1.0.
-      with:
+      - uses: adrey/slack-file-upload-action@1.0.
+        with:
         # Path to file
         path: package.json
         # Slack token
