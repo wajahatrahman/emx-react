@@ -1,18 +1,16 @@
-name: Slack File Upload
 on:
   push:
     branches:
       - "*"
+name: Artifact test  
 jobs:
-  test_job:
+  fileUpload:
+    runs-on: ubuntu-latest
     steps:
-      - uses: adrey/slack-file-upload-action@1.0.
+      - name: Upload to slack step
+        if: always()
+        uses: adrey/slack-file-upload-action@master
         with:
-        # Path to file
-        path: package.json
-        # Slack token
-        token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
-        # Slack channels
-        channel: #test
-        # The message text introducing the file in specified channels.
-        initial_comment: Jest Report
+          token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
+          path: package.json
+          channel: test
