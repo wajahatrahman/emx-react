@@ -4,15 +4,16 @@ uses: adrey/slack-file-upload-action@1.0.5
 on:
   push:
     branches:
-    - '*'
+      - "*"
 jobs:
-    test_job:
-    with:
-    # Path to file
-    path: package.json
-    # Slack token
-    token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
-    # Slack channels
-    channel: #test
-    # The message text introducing the file in specified channels.
-    initial_comment: Jest Report
+  test_job:
+    steps:
+      with:
+        # Path to file
+        path: package.json
+        # Slack token
+        token: xoxb-890217535927-4471073842273-mwUTHU6r3Kto8sNdsrR0Dl2Z
+        # Slack channels
+        channel: #test
+        # The message text introducing the file in specified channels.
+        initial_comment: Jest Report
