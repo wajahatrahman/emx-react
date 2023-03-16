@@ -1,6 +1,10 @@
 Version: 1.0.5
 name: Slack File Upload
 uses: adrey/slack-file-upload-action@1.0.5
+on:
+  push:
+    branches:
+    - '*'
 with:
   # Path to file
   path: package.json
