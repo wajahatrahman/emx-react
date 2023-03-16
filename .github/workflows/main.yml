@@ -7,6 +7,10 @@ jobs:
   fileUpload:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main
       - name: Upload to slack step
         if: always()
         uses: adrey/slack-file-upload-action@master
