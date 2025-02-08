@@ -39,6 +39,286 @@
       "endDate": "2025-04-07",
       "endTime": "16:00",
       "color": "violet"
+    },
+    {
+      "id": 5,
+      "title": "Star Players Bidding",
+      "description": "Annual player bidding event",
+      "startDate": "2025-01-15",
+      "startTime": "10:00 AM",
+      "endDate": "2025-01-15",
+      "endTime": "17:00",
+      "color": "amber"
+    },
+    {
+      "id": 6,
+      "title": "Scrabble Tournament",
+      "description": "Indoor board game competition",
+      "startDate": "2025-02-05",
+      "startTime": "09:00 AM",
+      "endDate": "2025-02-05",
+      "endTime": "16:00",
+      "color": "indigo"
+    },
+    {
+      "id": 7,
+      "title": "Chess Tournament",
+      "description": "Strategic board game competition",
+      "startDate": "2025-02-12",
+      "startTime": "09:00 AM",
+      "endDate": "2025-02-12",
+      "endTime": "17:00",
+      "color": "gray"
+    },
+    {
+      "id": 8,
+      "title": "Town Hall",
+      "description": "Company-wide meeting",
+      "startDate": "2025-02-20",
+      "startTime": "14:00 PM",
+      "endDate": "2025-02-20",
+      "endTime": "16:00",
+      "color": "blue"
+    },
+    {
+      "id": 9,
+      "title": "Women's Day Celebration",
+      "description": "International Women's Day event",
+      "startDate": "2025-03-08",
+      "startTime": "11:00 AM",
+      "endDate": "2025-03-08",
+      "endTime": "15:00",
+      "color": "pink"
+    },
+    {
+      "id": 10,
+      "title": "Eid Treat",
+      "description": "Eid celebration",
+      "startDate": "2025-03-31",
+      "startTime": "12:00 PM",
+      "endDate": "2025-03-31",
+      "endTime": "16:00",
+      "color": "green"
+    },
+    {
+      "id": 11,
+      "title": "One Day Picnic",
+      "description": "Team outdoor activity",
+      "startDate": "2025-04-05",
+      "startTime": "09:00 AM",
+      "endDate": "2025-04-05",
+      "endTime": "18:00",
+      "color": "emerald"
+    },
+    {
+      "id": 12,
+      "title": "Welcome Party",
+      "description": "New members welcome celebration",
+      "startDate": "2025-04-12",
+      "startTime": "15:00 PM",
+      "endDate": "2025-04-12",
+      "endTime": "19:00",
+      "color": "purple"
+    },
+    {
+      "id": 13,
+      "title": "Table Tennis Tournament Co-Doubles",
+      "description": "Sports competition",
+      "startDate": "2025-04-20",
+      "startTime": "10:00 AM",
+      "endDate": "2025-04-20",
+      "endTime": "17:00",
+      "color": "orange"
+    },
+    {
+      "id": 14,
+      "title": "FC Doubles",
+      "description": "Football competition",
+      "startDate": "2025-04-27",
+      "startTime": "14:00 PM",
+      "endDate": "2025-04-27",
+      "endTime": "18:00",
+      "color": "green"
+    },
+    {
+      "id": 15,
+      "title": "FC Singles",
+      "description": "Football singles tournament",
+      "startDate": "2025-05-10",
+      "startTime": "09:00 AM",
+      "endDate": "2025-05-10",
+      "endTime": "17:00",
+      "color": "green"
+    },
+    {
+      "id": 16,
+      "title": "Table Tennis Singles",
+      "description": "Male and Female categories",
+      "startDate": "2025-05-24",
+      "startTime": "09:00 AM",
+      "endDate": "2025-05-24",
+      "endTime": "18:00",
+      "color": "orange"
+    },
+    {
+      "id": 17,
+      "title": "Pedal Tennis",
+      "description": "Sports activity",
+      "startDate": "2025-06-07",
+      "startTime": "09:00 AM",
+      "endDate": "2025-06-07",
+      "endTime": "16:00",
+      "color": "yellow"
+    },
+    {
+      "id": 18,
+      "title": "E-Cricket Tournament",
+      "description": "Gaming competition",
+      "startDate": "2025-06-14",
+      "startTime": "10:00 AM",
+      "endDate": "2025-06-14",
+      "endTime": "18:00",
+      "color": "cyan"
+    },
+    {
+      "id": 19,
+      "title": "Annual Picnic",
+      "description": "Company-wide outdoor event (Tentative)",
+      "startDate": "2025-06-28",
+      "startTime": "08:00 AM",
+      "endDate": "2025-06-28",
+      "endTime": "20:00",
+      "color": "emerald"
+    },
+    {
+      "id": 20,
+      "title": "Fruit Funday",
+      "description": "Health and wellness event",
+      "startDate": "2025-07-05",
+      "startTime": "11:00 AM",
+      "endDate": "2025-07-05",
+      "endTime": "14:00",
+      "color": "red"
+    },
+    {
+      "id": 21,
+      "title": "CS Tournament",
+      "description": "Counter-Strike gaming competition",
+      "startDate": "2025-07-12",
+      "startTime": "10:00 AM",
+      "endDate": "2025-07-12",
+      "endTime": "18:00",
+      "color": "slate"
+    },
+    {
+      "id": 22,
+      "title": "Indoor Cricket",
+      "description": "Sports activity",
+      "startDate": "2025-07-26",
+      "startTime": "09:00 AM",
+      "endDate": "2025-07-26",
+      "endTime": "17:00",
+      "color": "green"
+    },
+    {
+      "id": 23,
+      "title": "Independence Day Celebration",
+      "description": "National day celebration",
+      "startDate": "2025-08-14",
+      "startTime": "10:00 AM",
+      "endDate": "2025-08-14",
+      "endTime": "16:00",
+      "color": "emerald"
+    },
+    {
+      "id": 24,
+      "title": "Badminton Tournament",
+      "description": "Sports competition",
+      "startDate": "2025-08-24",
+      "startTime": "09:00 AM",
+      "endDate": "2025-08-24",
+      "endTime": "18:00",
+      "color": "yellow"
+    },
+    {
+      "id": 25,
+      "title": "Ludo Tournament",
+      "description": "Board game competition",
+      "startDate": "2025-09-07",
+      "startTime": "10:00 AM",
+      "endDate": "2025-09-07",
+      "endTime": "16:00",
+      "color": "purple"
+    },
+    {
+      "id": 26,
+      "title": "Futsal Tournament",
+      "description": "Indoor football competition",
+      "startDate": "2025-09-21",
+      "startTime": "09:00 AM",
+      "endDate": "2025-09-21",
+      "endTime": "18:00",
+      "color": "green"
+    },
+    {
+      "id": 27,
+      "title": "MK Tournament",
+      "description": "Mortal Kombat gaming competition",
+      "startDate": "2025-10-05",
+      "startTime": "10:00 AM",
+      "endDate": "2025-10-05",
+      "endTime": "17:00",
+      "color": "red"
+    },
+    {
+      "id": 28,
+      "title": "Cricket Tournament",
+      "description": "Sports competition",
+      "startDate": "2025-10-12",
+      "startTime": "09:00 AM",
+      "endDate": "2025-10-12",
+      "endTime": "18:00",
+      "color": "green"
+    },
+    {
+      "id": 29,
+      "title": "Sequence Tournament",
+      "description": "Board game competition",
+      "startDate": "2025-10-26",
+      "startTime": "10:00 AM",
+      "endDate": "2025-10-26",
+      "endTime": "16:00",
+      "color": "blue"
+    },
+    {
+      "id": 30,
+      "title": "Men's Day Celebration",
+      "description": "International Men's Day event",
+      "startDate": "2025-11-19",
+      "startTime": "11:00 AM",
+      "endDate": "2025-11-19",
+      "endTime": "15:00",
+      "color": "blue"
+    },
+    {
+      "id": 31,
+      "title": "Tekken Tournament",
+      "description": "Gaming competition",
+      "startDate": "2025-11-23",
+      "startTime": "10:00 AM",
+      "endDate": "2025-11-23",
+      "endTime": "18:00",
+      "color": "purple"
+    },
+    {
+      "id": 32,
+      "title": "Annual Dinner 2025",
+      "description": "Year-end celebration",
+      "startDate": "2025-12-20",
+      "startTime": "19:00 PM",
+      "endDate": "2025-12-20",
+      "endTime": "23:00",
+      "color": "rose"
     }
   ]
 }
