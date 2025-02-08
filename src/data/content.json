@@ -1,11 +1,10 @@
 {
   "hero": {
-    "title": "Epic Events 2025",
-    "subtitle": "Creating Unforgettable Moments, One Event at a Time",
-    "cta": "Explore Events"
+    "title": "TLX - Sports Gala 2025",
+    "subtitle": "Creating Unforgettable Moments, One Event at a Time"
   },
   "calendar": {
-    "title": "Event Calendar 2025",
+    "title": "EMSC - Event Calendar 2025",
     "viewOptions": {
       "month": "Month",
       "quarter": "Quarter"
@@ -17,6 +16,6 @@
     }
   },
   "team": {
-    "title": "Meet the Team"
+    "title": "Meet the EMSC Team"
   }
 }
