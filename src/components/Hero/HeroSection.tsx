@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import content from '../../data/content.json';
 import { heroImages } from '../../data/images';
 import type { HeroImage } from '../../types';
 
@@ -30,20 +29,26 @@ export const HeroSection: React.FC = () => {
           />
         </div>
       ))}
-      <div className="relative z-20 text-center px-4">
-        <h1 className={`text-6xl md:text-7xl font-bold mb-6 animate-fade-in transition-colors duration-500 ${
-          heroImages[currentSlide].textColor
-        }`}>
-          {content.hero.title}
-        </h1>
-        <p className={`text-xl md:text-2xl mb-8 transition-colors duration-500 ${
-          heroImages[currentSlide].textColor === 'text-white' ? 'text-gray-300' : 'text-gray-700'
-        }`}>
-          {content.hero.subtitle}
-        </p>
-        <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full text-lg transition duration-300">
-          {content.hero.cta}
-        </button>
+      <div className="relative z-20 w-full px-4 max-w-7xl mx-auto">
+        {heroImages.map((image: HeroImage, index: number) => (
+          <div
+            key={index}
+            className={`transition-all duration-1000 absolute inset-x-0 ${
+              currentSlide === index
+                ? 'opacity-100 transform translate-y-0'
+                : 'opacity-0 transform -translate-y-8'
+            }`}
+          >
+            <h1 className={`text-6xl md:text-7xl font-bold mb-6 ${image.textColor} text-${image.titleAlignment}`}>
+              {image.title}
+            </h1>
+            <p className={`text-xl md:text-2xl ${
+              image.textColor === 'text-white' ? 'text-gray-300' : 'text-gray-700'
+            } text-${image.subtitleAlignment}`}>
+              {image.subtitle}
+            </p>
+          </div>
+        ))}
       </div>
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex space-x-2">
         {heroImages.map((_, index) => (

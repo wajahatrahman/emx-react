@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
       <div className="background-logo" aria-hidden="true" />
+      <div className="background-logo-top" aria-hidden="true" />
+      <div className="background-logo-bottom" aria-hidden="true" />
       <HeroSection />
       <CalendarSection />
       <TeamSection />
