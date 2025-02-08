@@ -13,7 +13,8 @@ export const heroImages: HeroImage[] = [
     url: "src/assets/biddingevent.jpg",
     textColor: "text-white",
     title: "Geared up for House Wars 2025",
-    subtitle: "Where Every Detail Tells Your Story",
+    subtitle:
+      "Bringing the energy, strategy, and spirit to the ultimate showdown!",
     titleAlignment: "left",
     subtitleAlignment: "right",
   },
