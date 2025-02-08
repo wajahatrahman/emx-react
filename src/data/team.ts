@@ -1,74 +1,89 @@
 import type { TeamMember } from "../types";
+import emptyImage from "../../public/assets/empty.jpg";
+// import abdullah from "../../public/assets/abdullah.png";
+import ahmedzia from "../../public/assets/ahmedzia.png";
+import aliarman from "../../public/assets/aliarman.png";
+import burhan from "../../public/assets/burhan.png";
+// import javeria from "../../public/assets/empty.jpg";
+// import mubeen from "../../public/assets/empty.jpg";
+import moosa from "../../public/assets/moosa.png";
+// import muneeb from "../../public/assets/empty.jpg";
+import salman from "../../public/assets/empty.jpg";
+import sarmad from "../../public/assets/sarmad.png";
+import syedaliraza from "../../public/assets/ali raza.png";
+import syedumer from "../../public/assets/umer.png";
+import wajahat from "../../public/assets/wajahat.png";
+import waqas from "../../public/assets/waqas.png";
 
 export const teamMembers: TeamMember[] = [
   {
     name: "Abdullah",
     role: "SC Team",
-    image: "/assets/empty.jpg",
+    image: emptyImage,
   },
   {
     name: "Ahmed Zia",
     role: "Finance Team",
-    image: "/assets/ahmedzia.png",
+    image: ahmedzia,
   },
   {
     name: "Ali Arman",
     role: "Design Team",
-    image: "/assets/aliarman.png",
+    image: aliarman,
   },
   {
     name: "Burhan Khalid",
     role: "SC Team",
-    image: "/assets/burhan.png",
+    image: burhan,
   },
   {
     name: "Javeria",
     role: "Marketing Team",
-    image: "/assets/empty.jpg",
+    image: emptyImage,
   },
   {
     name: "Mubeen Rasheed",
     role: "Finance Team",
-    image: "/assets/empty.jpg",
+    image: emptyImage,
   },
   {
     name: "Moosa Hashim",
     role: "SC Team",
-    image: "/assets/moosa.png",
+    image: moosa,
   },
   {
     name: "Muneeb Shafique",
     role: "Finance Team",
-    image: "/assets/empty.jpg",
+    image: emptyImage,
   },
   {
     name: "Salman Raza",
     role: "Core Team",
-    image: "/assets/empty.jpg",
+    image: salman,
   },
   {
     name: "Sarmad Hussain",
     role: "Marketing Team",
-    image: "/assets/sarmad.png",
+    image: sarmad,
   },
   {
     name: "Syed Ali Raza",
     role: "Core Team",
-    image: "/assets/ali raza.png",
+    image: syedaliraza,
   },
   {
     name: "Syed Umer Shamshad",
     role: "Core Team",
-    image: "/assets/umer.png",
+    image: syedumer,
   },
   {
     name: "Wajahat Rahman",
     role: "Core Team",
-    image: "/assets/wajahat.png",
+    image: wajahat,
   },
   {
     name: "Waqas Abrar",
     role: "Culture Innovation Team",
-    image: "/assets/waqas.png",
+    image: waqas,
   },
 ];

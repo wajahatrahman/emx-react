@@ -1,4 +1,5 @@
 import type { HeroImage } from "../types";
+import biddingevent from "../../public/assets/biddingevent.jpg";
 
 export const heroImages: HeroImage[] = [
   {
@@ -10,7 +11,7 @@ export const heroImages: HeroImage[] = [
     subtitleAlignment: "center",
   },
   {
-    url: "/assets/biddingevent.jpg",
+    url: biddingevent,
     textColor: "text-white",
     title: "Geared up for House Wars 2025",
     subtitle:
