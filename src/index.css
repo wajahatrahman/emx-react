@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+@keyframes float-diamond {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.animated-background {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(23, 23, 23, 0.95), rgba(38, 38, 38, 0.95));
+}
+
+.animated-background::before,
+.animated-background::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 18px solid;
+  transform: rotate(45deg);
+  opacity: 0.15;
+  animation: float-diamond 8s infinite ease-in-out;
+  z-index: 1;
+}
+
+.animated-background::before {
+  top: 10%;
+  left: -50px;
+  border-color: #DC2626 #4B5563 #EAB308 transparent;
+  animation-delay: -4s;
+}
+
+.animated-background::after {
+  bottom: 10%;
+  right: -50px;
+  border-color: transparent #171717 #EAB308 #991B1B;
+  animation-delay: -2s;
+}
+
+.background-logo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M30 20 L45 35 L30 50 L15 35 Z" fill="%23808080"/><path d="M55 35 L70 50 L55 65 L40 50 Z" fill="%23DC2626"/><path d="M80 50 L95 65 L80 80 L65 65 Z" fill="%23EAB308"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.05;
+  filter: blur(8px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glass-card {
+  background: linear-gradient(135deg, 
+    rgba(23, 23, 23, 0.7),
+    rgba(38, 38, 38, 0.6)
+  );
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 8px 32px 0 rgba(0, 0, 0, 0.36),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}

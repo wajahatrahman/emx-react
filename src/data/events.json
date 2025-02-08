@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Meeting with designers",
+      "description": "Design updates (revision 3)",
+      "startDate": "2025-02-08",
+      "startTime": "09:00 AM",
+      "endDate": "2025-02-08",
+      "endTime": "11:00",
+      "color": "emerald"
+    },
+    {
+      "id": 2,
+      "title": "Short trip to Bangkok",
+      "description": "Bring passport",
+      "startDate": "2025-02-16",
+      "startTime": "06:00 AM",
+      "endDate": "2025-02-18",
+      "endTime": "22:00",
+      "color": "rose"
+    },
+    {
+      "id": 3,
+      "title": "Tech Conference",
+      "description": "Annual technology summit",
+      "startDate": "2025-03-15",
+      "startTime": "09:00 AM",
+      "endDate": "2025-03-17",
+      "endTime": "18:00",
+      "color": "blue"
+    },
+    {
+      "id": 4,
+      "title": "Team Building",
+      "description": "Outdoor activities and workshops",
+      "startDate": "2025-04-05",
+      "startTime": "10:00 AM",
+      "endDate": "2025-04-07",
+      "endTime": "16:00",
+      "color": "violet"
+    }
+  ]
+}

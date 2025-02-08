@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Epic Events 2025",
+    "subtitle": "Creating Unforgettable Moments, One Event at a Time",
+    "cta": "Explore Events"
+  },
+  "calendar": {
+    "title": "Event Calendar 2025",
+    "viewOptions": {
+      "month": "Month",
+      "quarter": "Quarter"
+    },
+    "weekDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "eventList": {
+      "title": "Your events",
+      "emptyState": "No events scheduled"
+    }
+  },
+  "team": {
+    "title": "Meet the Team"
+  }
+}
