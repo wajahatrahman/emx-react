@@ -10,7 +10,7 @@ export const heroImages: HeroImage[] = [
     subtitleAlignment: "center",
   },
   {
-    url: "src/assets/biddingevent.jpg",
+    url: "/assets/biddingevent.jpg",
     textColor: "text-white",
     title: "Geared up for House Wars 2025",
     subtitle:
