@@ -1,6 +1,6 @@
 import type { TeamMember } from "../types";
 import emptyImage from "../../public/assets/empty.jpg";
-// import abdullah from "../../public/assets/abdullah.png";
+import abdullah from "../../public/assets/abdullah.jpg";
 import ahmedzia from "../../public/assets/ahmedzia.png";
 import aliarman from "../../public/assets/aliarman.png";
 import burhan from "../../public/assets/burhan.png";
@@ -19,7 +19,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Abdullah",
     role: "SC Team",
-    image: emptyImage,
+    image: abdullah,
   },
   {
     name: "Ahmed Zia",
